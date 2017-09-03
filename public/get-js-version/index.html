@@ -1,0 +1,27 @@
+<html>
+
+<style>
+body
+{
+  color: black;
+}
+</style>
+
+<script src="/js/jquery-3.2.1.min.js"></script>
+
+<script>
+let jqueryVersion = jQuery.fn.jquery;
+
+console.log(jqueryVersion);
+
+jQuery(function($) {
+  $("#version").html(jqueryVersion);
+})
+
+</script>
+
+<body>
+  You are running jQuery version <span id="version"></span>
+</body>
+
+</html>

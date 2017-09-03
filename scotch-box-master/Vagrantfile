@@ -8,6 +8,10 @@ Vagrant.configure("2") do |config|
     config.vm.hostname = "scotchbox"
     # config.vm.synced_folder ".", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
 
+    #I'm doing this for now to avoid complex setup but I
+    #am aware that this does not always work.
+    config.vm.synced_folder "./../", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
+
     config.vm.network "forwarded_port", guest: 80, host: 80
     config.vm.network "forwarded_port", guest: 3306, host: 3306
 

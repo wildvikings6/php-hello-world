@@ -16,13 +16,14 @@ windows php and mysql.
 
 
 #Startup steps
-open virtual box. Right click scotchbox. Do headless start.
-
+Open git bash in the project folder and run vagrant up.
 ##Vagrant commands
-##vagrant up
+###vagrant up
 Use this command to start-up.
-##vagrant suspend
+###vagrant suspend
 Use this command before shutting down.
+###vagrant reload
+reload the server.
 
 
 #Running php client commands
@@ -46,6 +47,8 @@ CREATE USER 'root'@'%' IDENTIFIED BY 'root';
 https://www.ampps.com/wiki/Installing_Laravel_Framework
 
 
+#remote-sync
+https://atom.io/packages/remote-sync
 
 #bitnami
 https://bitnami.com/stack/lamp/virtual-machine

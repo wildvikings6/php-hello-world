@@ -1,0 +1,17 @@
+{
+  "transport": "scp",
+  "hostname": "localhost",
+  "port": 22,
+  "username": "vagrant",
+  "password": "vagrant",
+  "target": "/var/www/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "watch":[
+    "/css/styles.css",
+    "/index.html",
+    "/index.php"
+  ]
+}
