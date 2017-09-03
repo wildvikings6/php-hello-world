@@ -1,5 +1,7 @@
 <html>
 
+<!-- http://localhost/static/  -->
+
 <style>
 body
 {

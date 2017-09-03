@@ -1,19 +1,9 @@
-# php-hello-world
-
-
-# setup
-I setup on a windows machine. I installed
-git for windows. I am installing Ampps for
-windows php and mysql.
-
-
-# howto commit push in atom
+# howto commit push in atom (commit edits to repo)
 * View -> Toggle Git
 * Select stage all to stage all files saved
 * type in commit message detailing change.
 * click commit
 * click up down arrows on bottom and click push
-
 
 #Startup steps
 Open git bash in the project folder and run vagrant up.
@@ -25,7 +15,6 @@ Use this command before shutting down.
 ###vagrant reload
 reload the server.
 
-
 #Running php client commands
 ##ssh
 * open git bash
@@ -34,31 +23,18 @@ reload the server.
 * cd /var/www
 * php {name of script}
 
-#scotchbox
-* ssh vagrant@localhost -p 2222
-* ssh user is vagrant password is vagrant
-
-##mysql
-CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
-CREATE USER 'root'@'%' IDENTIFIED BY 'root';
-
-
-#install laravel
-https://www.ampps.com/wiki/Installing_Laravel_Framework
-
+#mysql
+Mysql workbench can be used to look at the scotchbox database.
+User is root and password is root. This setup should already be
+there as a localhost connection. Just click on this connection
+to bring it up.
 
 #remote-sync
 https://atom.io/packages/remote-sync
 
-#bitnami
-https://bitnami.com/stack/lamp/virtual-machine
-Username
-user
-Password
-bitnami
-
-bitnami@password for UNIX password
+# setup
+Ended up modifying scotchbox vagrant build.
 
 
-
-https://github.com/scotch-io/scotch-box
+#Sites
+* repl.it has some good classes in beta.
