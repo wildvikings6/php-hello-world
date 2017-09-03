@@ -15,9 +15,36 @@ windows php and mysql.
 * click up down arrows on bottom and click push
 
 
+#Startup steps
+open virtual box. Right click scotchbox. Do headless start.
+
+##Vagrant commands
+##vagrant up
+Use this command to start-up.
+##vagrant suspend
+Use this command before shutting down.
+
+
+#Running php client commands
+##ssh
+* open git bash
+* ssh vagrant@localhost -p 2222
+* password is vagrant
+* cd /var/www
+* php {name of script}
+
+#scotchbox
+* ssh vagrant@localhost -p 2222
+* ssh user is vagrant password is vagrant
+
+##mysql
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
+CREATE USER 'root'@'%' IDENTIFIED BY 'root';
+
 
 #install laravel
 https://www.ampps.com/wiki/Installing_Laravel_Framework
+
 
 
 #bitnami
