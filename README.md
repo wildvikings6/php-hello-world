@@ -1,3 +1,12 @@
+#Main programming languages and misc.
+* PHP - server side development.
+* Javascript - browser (client) development
+* CSS - styling of webpages
+* HTML - Web pages are built on this.
+* MySQL - Database used by PHP.
+ 
+
+
 # howto commit push in atom (commit edits to repo)
 * View -> Toggle Git
 * Select stage all to stage all files saved
