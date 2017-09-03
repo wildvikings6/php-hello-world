@@ -1,0 +1,10 @@
+{
+    "name": "root/www",
+    "authors": [
+        {
+            "name": "Christie Johnson",
+            "email": "wildvikings6@gmail.com"
+        }
+    ],
+    "require": {}
+}

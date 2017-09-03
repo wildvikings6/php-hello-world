@@ -6,7 +6,7 @@
 * click up down arrows on bottom and click push
 
 #Startup steps
-Open git bash in the project folder and run vagrant up.
+Open git bash in the php-hello-world\scotch-box-master and run vagrant up.
 ##Vagrant commands
 ###vagrant up
 Use this command to start-up.
